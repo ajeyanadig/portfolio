@@ -14,8 +14,7 @@ export const PROJECTS = [
     date: "May 2024 - Jun 2024",
     description:
       "The Wild Oasis is a full stack web application designed to manage the workings and business hotel and enhance productivity for all employees. It provides a user-friendly interface for the business to track and manage bookings, new employee logins, payment, add/update/remove new cabins/room, check-ins and check-outs. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image: "/Oasis.png",
     tags: [
       "React",
       "React Query",
@@ -35,23 +34,34 @@ export const PROJECTS = [
     date: "Oct 2022 - Present",
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    image: "/Pizza_Delivery.png",
+
     tags: ["React Js", "Redux", "Node Js", "Express Js", "Redux", "NodeMailer"],
-    category: "web app",
+    category: `React`,
     github: "https://github.com/ajeyanadig/pizzaDelivery",
     webapp: "https://pizzadelivery-ajeya.netlify.app/",
   },
   {
     id: 2,
+    title: "World Wise",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+    image: "W_1.png",
+    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    category: "React",
+    github: "https://github.com/ajeyanadig/WorldWise",
+    webapp: "https://worldwise-ajeya.netlify.app/",
+  },
+  {
+    id: 3,
     title: "Forkify",
     date: "Apr 2023 - May 2023",
     description:
       "An online Cooking Recipe Web Application with over a million recipes to search from, upload custom ones, and bookmark them too. This project was developed using an MVC architecture pattern due to the sheer size of code by trying to re-create the optimisations of React in terms of updation and data handling",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    image: `/Forkify.png`,
     tags: ["HTML", "CSS", "JavaScript", "MVC Architecture", "CI-CD", "SASS"],
-    category: "web app",
+    category: "Vanilla",
     github: "https://github.com/ajeyanadig/Forkify-MVC",
     webapp: "https://forkify-ajeya.netlify.app/",
     // member: [
@@ -71,15 +81,50 @@ export const PROJECTS = [
   },
 
   {
-    id: 3,
-    title: "World Wise",
+    id: 4,
+    title: "Popcorn",
     date: "Jan 2023 - Mar 2023",
     description:
       "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+    image: "/Popcorn.png",
+    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    category: "React",
+    github: "https://github.com/ajeyanadig/WorldWise",
+    webapp: "https://worldwise-ajeya.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Bankist",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+    image: "/Bankist_WA.png",
+    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    category: "Vanilla",
+    github: "https://github.com/ajeyanadig/WorldWise",
+    webapp: "https://worldwise-ajeya.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Bankist-Marketing",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+    image: "/Bankist_M.png",
+    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    category: "Vanilla",
+    github: "https://github.com/ajeyanadig/WorldWise",
+    webapp: "https://worldwise-ajeya.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Mapty",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+    image: "/Mapty.png",
+    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    category: "Vanilla",
     github: "https://github.com/ajeyanadig/WorldWise",
     webapp: "https://worldwise-ajeya.netlify.app/",
   },

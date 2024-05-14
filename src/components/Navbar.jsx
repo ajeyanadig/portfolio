@@ -20,16 +20,32 @@ function Navbar() {
     { id: 3, text: "Technologies" },
     { id: 4, text: "Projects" },
     { id: 5, text: "Experience" },
+    { id: 6, text: "Contact" },
+    { id: 7, text: "Resume" },
+  ];
+  const navItemsDesktop = [
+    { id: 2, text: "About" },
+    { id: 4, text: "Projects" },
+    { id: 5, text: "Experience" },
+    { id: 6, text: "Contact" },
+    { id: 7, text: "Resume" },
   ];
 
   return (
-    <div className=" mx-auto mb-16 flex h-32 items-center justify-between text-white">
+    <div className=" md-10 mx-auto flex h-32  items-center justify-between text-white md:mb-16">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-medium text-slate-500">REACT.</h1>
+      <h1
+        className=" cursor-pointer text-3xl font-medium "
+        onClick={() => {
+          onNavClick("home");
+        }}
+      >
+        An.
+      </h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
-        {navItems.map((item) => (
+        {navItemsDesktop.map((item) => (
           <li
             onClick={() => onNavClick(item.text.toLowerCase())}
             key={item.id}
@@ -41,7 +57,7 @@ function Navbar() {
       </ul>
 
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className=" z-50 block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
@@ -49,12 +65,11 @@ function Navbar() {
       <ul
         className={
           nav
-            ? " fixed left-0 top-0 z-50 h-full w-[60%] border-r border-r-gray-900 bg-[#000300] duration-500 ease-in-out md:hidden"
-            : "fixed bottom-0 left-[-100%] top-0 z-50 w-[60%] duration-500 ease-in-out"
+            ? "fixed right-0 top-0 z-40 h-full w-[60%] border-r border-r-gray-900 bg-[#000300] pt-20 duration-500 ease-in-out md:hidden"
+            : "fixed bottom-0 right-[-100%] top-0 z-40 w-[60%] pt-16 duration-500 ease-in-out"
         }
       >
         {/* Mobile Logo */}
-        <h1 className="m-4 w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
 
         {/* Mobile Navigation Items */}
         {navItems.map((item) => (

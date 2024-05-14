@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { PROJECTS } from "../constants";
 import ProjectDetails from "../components/ProjectDetails";
+import { motion } from "framer-motion";
 function Projects() {
   const [project, setProject] = useState(null);
   function onCloseProject() {
@@ -11,7 +12,14 @@ function Projects() {
   }
   return (
     <div id="projects" className=" border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl ">Projects</h1>
+      <motion.h1
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-20 text-center text-4xl"
+      >
+        Projects
+      </motion.h1>
       <div className="flex flex-wrap items-center justify-center gap-7">
         {PROJECTS.map((project) => (
           <div

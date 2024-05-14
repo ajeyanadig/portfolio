@@ -122,8 +122,9 @@ const Button = styled.a`
   color: white;
   padding: 12px 16px;
   border-radius: 8px;
-  background-color: #a855f7;
-
+  /* background-color: #a855f7; */
+  background-color: ${(props) =>
+    props.secondary === "true" ? "#cccccc54" : "#a855f7"};
   cursor: pointer;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -163,7 +164,7 @@ function ProjectDetails({ project, onCloseModal }) {
             </>
           )}
           <ButtonGroup>
-            <Button href={project?.github} target="new">
+            <Button secondary={"true"} href={project?.github} target="new">
               View Code
             </Button>
             <Button href={project?.webapp} target="new">

@@ -11,7 +11,7 @@ function AppLayout() {
     <>
       <div className="grid h-screen grid-rows-[auto_1fr] px-12 ">
         <Header />
-        <main className="overflow-x-scroll text-neutral-200">
+        <main className=" overflow-x-hidden pb-3 text-neutral-200">
           <Intro />
           <About />
           <Technologies />
