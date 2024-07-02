@@ -49,9 +49,7 @@ function Intro() {
               transition: { duration: 1, delay: 1.2 },
             }}
             className="flex justify-center"
-          >
-            My Handsome image
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
     </div>

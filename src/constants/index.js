@@ -13,7 +13,7 @@ export const PROJECTS = [
     title: "The Wild Oasis",
     date: "May 2024 - Jun 2024",
     description:
-      "The Wild Oasis is a full stack web application designed to manage the workings and business hotel and enhance productivity for all employees. It provides a user-friendly interface for the business to track and manage bookings, new employee logins, payment, add/update/remove new cabins/room, check-ins and check-outs. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "The Wild Oasis is a full stack web application designed to manage the workings and business hotel and enhance productivity for all employees. It provides a user-friendly interface for the business to track and manage bookings, new employee logins, payment, add/update/remove new cabins/room, check-ins and check-outs. Basically all CRUD operations.",
     image: "/Oasis.png",
     tags: [
       "React",
@@ -23,20 +23,21 @@ export const PROJECTS = [
       "CI/CD",
       "Hook-Forms",
       "Authentication",
+      "React-Router",
     ],
     category: "Fullstack",
     github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://the-wild-oasis-aj.vercel.app/login",
+    webapp: "https://the-wild-oasis-aj.vercel.app/",
   },
   {
     id: 1,
-    title: "Fast Pizza Co.",
-    date: "Oct 2022 - Present",
+    title: "Pizza Delivery Co.",
+    date: "May 2024",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "A Front End React Web App for ordering mouth watering authentic Italian pizzas, straight from a brick oven to you. Developed using React, designed with TailwindCSS for, while using the latest React Router features imperatively along with Redux Toolkit with the latest patterns to manage remote state, global UI state, incorporating different APIs for various features",
     image: "/Pizza_Delivery.png",
 
-    tags: ["React Js", "Redux", "Node Js", "Express Js", "Redux", "NodeMailer"],
+    tags: ["React Js", "Redux", "Tailwind CSS", "React-Router", "RTK Toolkit"],
     category: `React`,
     github: "https://github.com/ajeyanadig/pizzaDelivery",
     webapp: "https://pizzadelivery-ajeya.netlify.app/",
@@ -44,9 +45,9 @@ export const PROJECTS = [
   {
     id: 2,
     title: "World Wise",
-    date: "Jan 2023 - Mar 2023",
+    date: "April 2024",
     description:
-      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+      "WorldWise is a webapp where you can keep notes about the city or, to keep track of all the places on the world map that you have visited. This is a test application running on mock Api(json-server). This project code highlights and depends heavily on Context Api, React Query and different usecases of React Router Dom v6 like putting app state in url",
     image: "W_1.png",
     tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
     category: "React",
@@ -56,7 +57,7 @@ export const PROJECTS = [
   {
     id: 3,
     title: "Forkify",
-    date: "Apr 2023 - May 2023",
+    date: "Oct 2023 - Nov 2023",
     description:
       "An online Cooking Recipe Web Application with over a million recipes to search from, upload custom ones, and bookmark them too. This project was developed using an MVC architecture pattern due to the sheer size of code by trying to re-create the optimisations of React in terms of updation and data handling",
     image: `/Forkify.png`,
@@ -83,11 +84,11 @@ export const PROJECTS = [
   {
     id: 4,
     title: "Popcorn",
-    date: "Jan 2023 - Mar 2023",
+    date: "April 2024",
     description:
-      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+      "A simple react app you can use to search bar to find TV shows and movies, their details and imdb rating, and give your own ratings to maintain a personal list of watched content. It fetches data from the IMDB API. Key features is searching a movie from the search bar, paginated results, cancelling data requests on continuous types(neat trick), and bookmarking",
     image: "/Popcorn.png",
-    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    tags: ["React", "CSS", "Resuable Components", "SASS"],
     category: "React",
     github: "https://github.com/ajeyanadig/WorldWise",
     webapp: "https://worldwise-ajeya.netlify.app/",
@@ -95,11 +96,11 @@ export const PROJECTS = [
   {
     id: 5,
     title: "Bankist",
-    date: "Jan 2023 - Mar 2023",
+    date: "Sep 2023",
     description:
-      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+      "Bankist simulates a virtual banking experience. Like any other bank, this webapp  has the option to log in to the account and use different functionalities like checking balance, having a list of transactions with their dates matched to the current locality, transferring money, requesting a loan, deleting the account, and details of withdrawals, depositins and interests all in one go. Also has a timer to make the webapp secure, after which you have to log back in ",
     image: "/Bankist_WA.png",
-    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    tags: ["JavaScript", "HTML", "CSS"],
     category: "Vanilla",
     github: "https://github.com/ajeyanadig/WorldWise",
     webapp: "https://worldwise-ajeya.netlify.app/",
@@ -107,11 +108,11 @@ export const PROJECTS = [
   {
     id: 6,
     title: "Bankist-Marketing",
-    date: "Jan 2023 - Mar 2023",
+    date: "Oct 2023",
     description:
-      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+      "A marketing website for the project Bankist. Implements smooth scrolling, modals, optimised loading times by saving time using thumbnails, blurring and downloading images when scolled into view and an overall aesthetic design. The magic lies in using the Intersction Observer API ",
     image: "/Bankist_M.png",
-    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    tags: ["JavaScript", "HTML", "Optimisation", "CSS"],
     category: "Vanilla",
     github: "https://github.com/ajeyanadig/WorldWise",
     webapp: "https://worldwise-ajeya.netlify.app/",
@@ -119,11 +120,11 @@ export const PROJECTS = [
   {
     id: 7,
     title: "Mapty",
-    date: "Jan 2023 - Mar 2023",
+    date: "Oct 2023",
     description:
-      "Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes Leaflet SASS Routing Protected Routes ",
+      "Developed a fun web application where the goal is to log the workouts(running or cycling) for the users in its desired location and set some specifications for his workout accordingly. This application is built using Advanced Javascript with Object Oriented Programming which uses Geolocation APIs , Browser APIs along with some External libraries.",
     image: "/Mapty.png",
-    tags: ["React", "Leaflet", "Lazy-Loading", "SASS"],
+    tags: ["JavaScript", "CSS", "Geolocation-APIs", "Leaflet"],
     category: "Vanilla",
     github: "https://github.com/ajeyanadig/WorldWise",
     webapp: "https://worldwise-ajeya.netlify.app/",

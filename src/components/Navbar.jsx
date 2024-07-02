@@ -21,14 +21,12 @@ function Navbar() {
     { id: 4, text: "Projects" },
     { id: 5, text: "Experience" },
     { id: 6, text: "Contact" },
-    { id: 7, text: "Resume" },
   ];
   const navItemsDesktop = [
     { id: 2, text: "About" },
     { id: 4, text: "Projects" },
     { id: 5, text: "Experience" },
     { id: 6, text: "Contact" },
-    { id: 7, text: "Resume" },
   ];
 
   return (
@@ -44,7 +42,7 @@ function Navbar() {
       </h1>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex md:items-center">
         {navItemsDesktop.map((item) => (
           <li
             onClick={() => onNavClick(item.text.toLowerCase())}
@@ -54,6 +52,15 @@ function Navbar() {
             {item.text}
           </li>
         ))}
+        <li>
+          <a
+            className="m-2 cursor-pointer rounded-xl p-4 duration-300 hover:bg-[#00df9a] hover:text-black"
+            href="https://docs.google.com/document/d/1e4a7oUp9nBX4P_Pw6XrtNbTSZxYD5v0eruKn6c6LsXk/"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
 
       {/* Mobile Navigation Icon */}
@@ -84,6 +91,14 @@ function Navbar() {
             {item.text}
           </li>
         ))}
+        <li className="cursor-pointer rounded-xl border-b border-gray-600 p-4 duration-300 hover:bg-[#00df9a] hover:text-black">
+          <a
+            href="https://docs.google.com/document/d/1e4a7oUp9nBX4P_Pw6XrtNbTSZxYD5v0eruKn6c6LsXk/"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </div>
   );
