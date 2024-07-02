@@ -30,7 +30,7 @@ function Navbar() {
   ];
 
   return (
-    <div className=" md-10 mx-auto flex h-32  items-center justify-between text-white md:mb-16">
+    <div className=" mx-auto  flex h-32  items-center justify-between text-white ">
       {/* Logo */}
       <h1
         className=" cursor-pointer text-3xl font-medium "
