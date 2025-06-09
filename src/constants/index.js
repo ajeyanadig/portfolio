@@ -9,7 +9,26 @@ export const ABOUT_TEXT = [
 
 export const PROJECTS = [
   {
-    id: 0,
+    id: 7,
+    title: "The Wild Oasis",
+    date: "May 2024 - Jun 2024",
+    description: `QKart is an E-commerce application offering a variety of products for customers to choose from. During the course of this project, I implemented the core logic for authentication, shopping cart and checkout,improved UI by adding responsive design elements(from Figma) for uniform experience across different devices, and Utilized REST APIs to dynamically load and render data served by the backend server, and deployed the website to Netlify`,
+    image: "/Qkart.png",
+    tags: [
+      "React",
+      "Render",
+      "Styled Components",
+      "CI/CD",
+      "Hook-Forms",
+      "Authentication",
+      "Material UI",
+    ],
+    category: "Front-end",
+    github: "NA",
+    webapp: "https://ajeyanadig-me-qkart-frontend-v2.vercel.app/",
+  },
+  {
+    id: 7,
     title: "The Wild Oasis",
     date: "May 2024 - Jun 2024",
     description:
@@ -30,7 +49,7 @@ export const PROJECTS = [
     webapp: "https://the-wild-oasis-aj.vercel.app/",
   },
   {
-    id: 1,
+    id: 6,
     title: "Pizza Delivery Co.",
     date: "May 2024",
     description:
@@ -43,7 +62,7 @@ export const PROJECTS = [
     webapp: "https://pizzadelivery-ajeya.netlify.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "World Wise",
     date: "April 2024",
     description:
@@ -55,7 +74,7 @@ export const PROJECTS = [
     webapp: "https://worldwise-ajeya.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Forkify",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -82,7 +101,7 @@ export const PROJECTS = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Popcorn",
     date: "April 2024",
     description:
@@ -94,7 +113,7 @@ export const PROJECTS = [
     webapp: "https://worldwise-ajeya.netlify.app/",
   },
   {
-    id: 5,
+    id: 2,
     title: "Bankist",
     date: "Sep 2023",
     description:
@@ -106,7 +125,7 @@ export const PROJECTS = [
     webapp: "https://worldwise-ajeya.netlify.app/",
   },
   {
-    id: 6,
+    id: 1,
     title: "Bankist-Marketing",
     date: "Oct 2023",
     description:
@@ -118,7 +137,7 @@ export const PROJECTS = [
     webapp: "https://worldwise-ajeya.netlify.app/",
   },
   {
-    id: 7,
+    id: 0,
     title: "Mapty",
     date: "Oct 2023",
     description:

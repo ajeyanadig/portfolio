@@ -55,7 +55,7 @@ function Navbar() {
         <li>
           <a
             className="m-2 cursor-pointer rounded-xl p-4 duration-300 hover:bg-[#00df9a] hover:text-black"
-            href="https://docs.google.com/document/d/1e4a7oUp9nBX4P_Pw6XrtNbTSZxYD5v0eruKn6c6LsXk/"
+            href="https://drive.google.com/file/d/1W92UvGmk6W41gWPwMTyWSXfPP4yHaOlU/view"
             target="_blank"
           >
             Resume
@@ -93,7 +93,7 @@ function Navbar() {
         ))}
         <li className="cursor-pointer rounded-xl border-b border-gray-600 p-4 duration-300 hover:bg-[#00df9a] hover:text-black">
           <a
-            href="https://docs.google.com/document/d/1e4a7oUp9nBX4P_Pw6XrtNbTSZxYD5v0eruKn6c6LsXk/"
+            href="https://drive.google.com/file/d/1W92UvGmk6W41gWPwMTyWSXfPP4yHaOlU/view"
             target="_blank"
           >
             Resume
